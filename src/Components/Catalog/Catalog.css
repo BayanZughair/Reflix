@@ -1,0 +1,12 @@
+.catalog-results {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  padding: 40px;
+}
+
+.budget {
+  text-align: right;
+}
+div{
+  margin: 0 5px;
+}

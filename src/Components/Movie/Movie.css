@@ -1,0 +1,17 @@
+.movie-box {
+  position: relative;
+  width: 120px;
+  height: 150px;
+}
+
+.catalog-movie {
+  height: 150px;
+  width: 150px;
+}
+
+.button {
+  position: absolute;
+  top: 0px;
+  left: 120px;
+  background-color: transparent;
+}
