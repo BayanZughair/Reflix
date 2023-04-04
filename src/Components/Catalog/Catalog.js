@@ -4,11 +4,13 @@ import './Catalog.css';
 
 
 const Catalog = ({ movies, budget, text, updateText, rentMovie }) => {
+
+  const rentedMovies = movies.filter((movie) => movie.isRented)
   return (
     <div id="catalog">
       <input placeholder="Search" value={text} onChange={updateText}></input>
       <div className='budget'>Budget: ${budget}</div>
-      {budget > 0 ? (
+      {budget > 0 && rentedMovies.length > 0 && (
         <div>
           <div>Rented:</div>
           <div className="catalog-results">
@@ -16,7 +18,7 @@ const Catalog = ({ movies, budget, text, updateText, rentMovie }) => {
             ))}
           </div>
         </div>
-      ) : null}
+      ) }
       
       <div>Catalog:</div>
       <div className="catalog-results">
