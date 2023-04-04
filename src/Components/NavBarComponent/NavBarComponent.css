@@ -1,0 +1,16 @@
+.nav-bar{
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+    padding: 10px;
+  }
+  .nav-links{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+  
+  }.logo{
+    color: #5dd1e9;
+    text-align: right;
+    font-weight: bold;
+  }
+  

@@ -16,3 +16,17 @@ h1 {
   text-align: center;
   padding: 30px;
 }
+
+.blue{
+  background-color:#3498db;
+}
+.red{
+  background-color: #e74c3c;
+}
+.green{
+  background-color:#2ecc71;
+  
+}
+.yellow{
+  background-color: #f1c40f;
+}

@@ -5,22 +5,10 @@
   font-size: x-large;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
-.nav-bar{
-  display: grid;
-  grid-template-columns: 1fr 8fr;
-  padding: 10px;
-}
-.nav-links{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 10px;
-
-}
 a {
   text-decoration: none;
 }
-
-.blue{
+/* .blue{
   background-color:#3498db;
 }
 .red{
@@ -32,9 +20,4 @@ a {
 }
 .yellow{
   background-color: #f1c40f;
-}
-.logo{
-  color: #5dd1e9;
-  text-align: right;
-  font-weight: bold;
-}
+} */
